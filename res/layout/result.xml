@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/clock_display_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clock"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/back"
+        android:text="TextView"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/result_intro_text"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/result_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/clock_display_view"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/back"
+        android:padding="11dp"
+        android:text="TextView"
+        android:textSize="21sp"
+        android:typeface="sans" />
+
+    <com.bucifer.lifeclock_english.AnalogClock1
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/clock"
+        style="@style/clock"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/result_intro_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp" />
+
+</RelativeLayout>

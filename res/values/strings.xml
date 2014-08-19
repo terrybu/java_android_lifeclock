@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Life Age Clock</string>
+    <string name="english_intro">If your life could be expressed on a 24-hour clock, what time would it point to? </string>
+    <string name="input_help">Input your current age\n(1 to 80 inclusive)</string>
+    <string name="input_button_text">Show Clock!</string>
+    <string name="outofrange">Your age is out of range. Please input age between 1-80 inclusive.</string>
+    <string name="credits">All credits to Mr. Kim Nan Do. Concept is not developer\'s own.</string>
+
+</resources>
